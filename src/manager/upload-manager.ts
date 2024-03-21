@@ -3,14 +3,6 @@ const MAX_LIMIT = 5
 /** 最大文件大小 5M */
 const MAX_SIZE = 1024 * 1024 * 5
 
-/** 所有文件上传状态 */
-export enum AllFilesUploadStatus {
-  WAITING = 'waiting',
-  ALL_SUCCESS = 'all_success',
-  HAS_PENDING = 'has_pending',
-  HAS_FAIL = 'has_fail'
-}
-
 /** 单个文件上传状态 */
 export enum UploadResult {
   SUCCESS = 'success',
